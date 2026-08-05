@@ -17,16 +17,33 @@ OUT = ROOT / "Svitla_CV_Ihor_S_Senior_Front_End_Engineer_React.pdf"
 HEADER_H = 158.25
 
 
-def main() -> None:
-    html = HTML.read_text(encoding="utf-8")
-    # Strip running header markup if present; body PDF uses top margin only.
+def prepare_body_html(src: str) -> str:
+    html = src
     html = re.sub(r'<div class="page-header">.*?</div>\s*', "", html, flags=re.S)
+    # Remove running-header CSS block
+    html = re.sub(r"\.page-header\s*\{[^}]*\}\s*", "", html)
+    html = re.sub(r"\.page-header img\s*\{[^}]*\}\s*", "", html)
+    # Replace nested @page { ... @top-center { ... } ... } with simple margins
     html = re.sub(
-        r"@page\s*\{[^}]*\}",
+        r"@page\s*\{(?:[^{}]|\{[^{}]*\})*\}",
         "@page { size: A4; margin: 170pt 57.8pt 36pt 57.8pt; }",
         html,
         count=1,
     )
+    # Absolute font paths so temp HTML still resolves Carlito
+    html = html.replace(
+        'url("fonts/Carlito-Regular.ttf")',
+        f'url("{ROOT / "fonts" / "Carlito-Regular.ttf"}")',
+    )
+    html = html.replace(
+        'url("fonts/Carlito-Bold.ttf")',
+        f'url("{ROOT / "fonts" / "Carlito-Bold.ttf"}")',
+    )
+    return html
+
+
+def main() -> None:
+    html = prepare_body_html(HTML.read_text(encoding="utf-8"))
 
     with tempfile.TemporaryDirectory() as tmp:
         body_html = Path(tmp) / "body.html"
