@@ -3,7 +3,7 @@
 Warsaw, Poland | ihossa17@gmail.com | +48 575 765 184 | linkedin.com/in/ihor-shymkov-0274811a6 | hopme.app
 
 ## PROFESSIONAL SUMMARY
-Senior Frontend Engineer with 7+ years building high-performance SaaS and interactive product experiences for EU and US markets. Specialise in React and TypeScript for complex UIs — website builders, dashboards, marketplaces and real-time apps — owning work from requirements through architecture, implementation and production. Cross the stack (Node.js, Ruby on Rails) when delivery depends on APIs or data models. Apply AI-assisted development with codebase context, clear change boundaries and engineering review. Mentor engineers and raise frontend standards via design systems, testing strategy and documentation.
+Senior Frontend Engineer with 7+ years building high-performance SaaS and interactive product experiences for EU and US markets. Currently driving enterprise frontend modernization at Svitla Systems (TypeScript migration, Design System, Playwright/CI reliability and architecture standards). Specialise in React and TypeScript for complex UIs — website builders, dashboards, marketplaces and real-time apps — owning work from requirements through architecture, implementation and production. Cross the stack (Node.js, Ruby on Rails) when delivery depends on APIs or data models. Mentor engineers and raise frontend standards via design systems, testing strategy and documentation.
 
 ## TECHNICAL SKILLS
 - **Frontend:** React, TypeScript, JavaScript (ES6+), Next.js, Vue.js, HTML5, CSS3, Tailwind, CSS Modules, Styled Components, i18n
@@ -15,11 +15,11 @@ Senior Frontend Engineer with 7+ years building high-performance SaaS and intera
 ## PROFESSIONAL EXPERIENCE
 
 ### Senior Frontend Engineer
-**Svitla Systems — Enterprise SaaS (US & Europe) | Apr 2026 – Present**
-- Lead JavaScript → TypeScript migration on a production React codebase, improving type safety, refactor confidence and multi-team maintainability.
-- Raise CI reliability by fixing flaky Playwright tests and expanding critical-path E2E coverage to cut false failures and unblock releases.
-- Evolve the Design System with reusable Material UI components; document architecture and AI-assisted workflows with clear review boundaries.
-- Partner with product, design, QA and backend to ship features and harden a large production frontend.
+**Svitla Systems — Large-scale enterprise SaaS (US & Europe) | Apr 2026 – Present**
+- Own senior delivery on a large production React codebase for US/EU enterprise customers — features plus long-term evolution of a significant legacy surface.
+- Lead JS→TS migration: define patterns, raise type safety and enable safer multi-team refactors across shared modules.
+- Drive frontend architecture decisions; translate ambiguous requirements into technical designs with product, design, QA and backend.
+- Own Playwright E2E strategy and flaky-test remediation to harden CI and unblock releases; evolve Design System + engineering docs/AI workflow standards.
 
 **Technologies:** React, TypeScript, JavaScript, Material UI, REST, Playwright, Git, CI/CD, AI-assisted development.
 
@@ -59,7 +59,7 @@ Senior Frontend Engineer with 7+ years building high-performance SaaS and intera
 - **Complex interaction UX | Strong SD:** dnd-kit / Tiptap / GSAP flows → ~40% UX efficiency gain and ~30% faster heavy interactions.
 - **Product impact | Strong SD:** Retention-driving features (~15%) plus Rails APIs/migrations — ownership beyond the UI layer.
 - **Engagement systems | Ahasha:** Social + account features +20–25% engagement; process improvements −15–20% bugs.
-- **Platform hardening | Svitla:** JS→TS migration, Design System growth and Playwright flaky-test remediation for release confidence.
+- **Enterprise platform ownership | Svitla:** Lead JS→TS migration, Design System evolution, Playwright/CI hardening and architecture standards on a large US/EU production SaaS frontend.
 - **Shipped product | Hopme:** Founded and shipped live iOS/Android event-discovery app for Warsaw (map, filters, create/join, chat, i18n).
 
 ## EDUCATION
