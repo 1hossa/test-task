@@ -1,6 +1,6 @@
 # Ihor Shymkov
 **Senior Frontend Engineer | React & TypeScript**  
-Warsaw, Poland | linkedin.com/in/ihor-shymkov-0274811a6 | hopme.app
+Warsaw, Poland | ihossa17@gmail.com | +48 575 765 184 | linkedin.com/in/ihor-shymkov-0274811a6 | hopme.app
 
 ## PROFESSIONAL SUMMARY
 Senior Frontend Engineer with 7+ years building high-performance SaaS and interactive product experiences for EU and US markets. Specialise in React and TypeScript for complex UIs — website builders, dashboards, marketplaces and real-time apps — owning work from requirements through architecture, implementation and production. Cross the stack (Node.js, Ruby on Rails) when delivery depends on APIs or data models. Apply AI-assisted development with codebase context, clear change boundaries and engineering review. Mentor engineers and raise frontend standards via design systems, testing strategy and documentation.

@@ -27,8 +27,10 @@
 
 Metrics kept only from your prior CV/LinkedIn (40% UX efficiency, ~30% load, 15% retention, 10k+ users, 20–25% engagement, 15–20% bug rate, ~10% velocity). If any number is soft, replace with a concrete technical outcome before sending to FAANG-style screens.
 
-## Fill before sending externally
+## Contact (filled)
 
-- Personal email + phone (header currently has LinkedIn + hopme.app).
-- Exact Polish level if you have a certificate (Arsenii lists telc B2 — optional parity).
-- Optional: interviewing / mentoring volume if you want to match Arsenii’s “conducted interviews” line with a true fact.
+- Email: ihossa17@gmail.com
+- Phone: +48 575 765 184
+- LinkedIn + hopme.app already in header
+
+Optional next: Polish certificate if you have one (Arsenii lists telc B2); interviewing volume if true.
