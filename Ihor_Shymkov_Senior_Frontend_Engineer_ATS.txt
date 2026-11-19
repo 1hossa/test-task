@@ -8,10 +8,10 @@ PROFESSIONAL SUMMARY
 Senior Frontend Engineer with 7+ years building high-performance SaaS and interactive product experiences for EU and US markets. Specialise in React and TypeScript for complex UIs - website builders, dashboards, marketplaces and real-time apps - owning work from requirements through architecture, implementation and production. Cross the stack (Node.js, Ruby on Rails) when delivery depends on APIs or data models. Apply AI-assisted development with codebase context, clear change boundaries and engineering review. Mentor engineers and raise frontend standards via design systems, testing strategy and documentation.
 
 TECHNICAL SKILLS
-Frontend: React, TypeScript, JavaScript (ES6+), Next.js, Vue.js, HTML5, CSS3, Tailwind, CSS Modules, Styled Components, i18n
+Frontend: React, TypeScript, JavaScript (ES6+), Next.js, Vue.js, Nuxt, HTML5, CSS3, Tailwind, CSS Modules, Styled Components, i18n
 Architecture and State: Design systems, Zustand, MobX, Redux, Redux Toolkit, Redux Saga, TanStack Query, Stimulus, Headless UI
 Complex UI: Drag and Drop (dnd-kit), Tiptap, GSAP, Storybook, builders, preview environments, Recharts, Leaflet
-Backend and APIs: Node.js, Express, Ruby on Rails, REST, JSON API, GraphQL, Apollo, WebSockets, Firebase, PostgreSQL, MongoDB
+Backend and APIs: Node.js, Express, Ruby on Rails, REST, JSON API, GraphQL, Apollo, WebSockets, Firebase, Sanity CMS, PostgreSQL, MongoDB
 UI, Testing and Delivery: Material UI, Chakra UI, Vuetify, Jest, React Testing Library, Cypress, Playwright, Lighthouse, Vite, Webpack, Git, CI/CD, AI-assisted development (Copilot, Claude Code), Google Analytics
 
 PROFESSIONAL EXPERIENCE
@@ -33,20 +33,28 @@ Strong SD - Website Builder Platform (EU clients) | Jun 2024 - Apr 2026
 Technologies: React, TypeScript, Zustand, Stimulus, Headless UI, TanStack Query, Tailwind, Storybook, dnd-kit, GSAP, Tiptap, Ruby on Rails, JSON API, Turbo Streams, PostgreSQL, Jest, RTL, Lighthouse, i18n.
 
 Frontend Engineer
-Ahasha LLC (Lookberry) - Marketplace + Social Platform | Nov 2021 - Jun 2024
-- Built Personal Account and Social modules (Next.js, React, TypeScript, MobX) that increased engagement by 20-25% across EU and UAE markets.
-- Improved architecture and review practices - bug rate down 15-20%, team velocity up about 10%; mentored juniors. Integrated WebSockets, Firebase, analytics, charts and maps.
-Technologies: React, TypeScript, Next.js, MobX, CSS Modules, Storybook, REST, Firebase, WebSockets, Vite, Jest, Formik, Yup, i18n, Google Analytics, Recharts, Leaflet.
+Ahasha LLC (Lookberry) - Fashion marketplace + social platform (EU and UAE) | Nov 2021 - Jun 2024 | Odesa, Ukraine
+- Developed core Personal Account and Social modules for a hybrid fashion commerce and social product (Next.js, React, TypeScript, MobX), increasing user engagement by 20-25%.
+- Participated in architecture discussions, feature design and business decisions - not only UI implementation - for EU and UAE market releases.
+- Integrated real-time and data surfaces: WebSockets, Firebase, Google Analytics, Recharts dashboards and Leaflet maps; forms via Formik/Yup and Axios REST clients.
+- Mentored junior developers and ran code reviews; improved architecture and review practices that cut bug rate by 15-20% and raised team velocity by about 10%.
+Technologies: React, TypeScript, Next.js, MobX, CSS Modules, Storybook, REST, Firebase, WebSockets, Vite, Jest, Axios, Formik, Yup, i18n, Google Analytics, Recharts, Leaflet.
 
 Frontend Engineer
-Halo Lab - Museum ticket booking | Feb 2021 - Nov 2021
-- Built booking platform from scratch (React, TypeScript, GraphQL/Apollo); supported several thousand users per week.
-Technologies: React, TypeScript, Tailwind, Node.js, Express, GraphQL, Apollo, MongoDB, Material UI, Chakra UI, Redux Saga, Jest, Cypress.
+Halo Lab - Digital products for EU cultural institutions | Feb 2021 - Nov 2021 | Odesa, Ukraine
+- Built a museum ticket-booking platform from scratch (React, TypeScript), including UI features, backend API integration and automated tests for a reliable booking flow.
+- Delivered frontend work across agency projects for cultural institutions - primarily ERP-style admin systems plus interactive exhibit and booking experiences.
+- Integrated GraphQL via Apollo, Redux/Redux-Saga state, Sanity CMS content and Tailwind UI; covered critical paths with Jest unit tests and Cypress E2E.
+- Supported a live platform used by several thousand users per week; improved booking-flow reliability and reduced minor UI defects before launch.
+Technologies: React, TypeScript, Tailwind, Node.js, Express, GraphQL, Apollo, MongoDB, Sanity CMS, Material UI, Chakra UI, Redux, Redux Saga, Jest, Cypress, Webpack, i18n.
 
 Frontend Engineer
-Asferro - Restaurant admin / CRM | Oct 2019 - Feb 2021
-- Delivered analytics dashboards and CRM UI in Vue and React; added WebSocket real-time updates for multi-location operations.
-Technologies: Vue, React, TypeScript, GraphQL, Apollo, Redux, Vuex, Vuetify, Styled Components, Webpack, i18n.
+Asferro - Restaurant admin platforms and CRM | Oct 2019 - Feb 2021 | Odesa, Ukraine
+- Built and maintained admin platforms for restaurant infrastructure: analytics dashboards, CRM workflows and multi-location operations UI.
+- Implemented Vue.js applications with Vuex, Nuxt and Vuetify; used Apollo, Axios and fetch against GraphQL and REST APIs; charting with Recharts and Lodash helpers.
+- Added WebSocket-based real-time updates so multi-location restaurant teams could see operational changes without full page reloads.
+- Expanded into React and Redux on selected modules while participating in sprint planning and code reviews.
+Technologies: Vue, Nuxt, React, TypeScript, JavaScript, GraphQL, Apollo, Redux, Vuex, Vuetify, Styled Components, Tailwind, Recharts, Lodash, Webpack, i18n.
 
 SELECTED ENGINEERING ACHIEVEMENTS
 - Builder architecture | Strong SD: Owned edit and preview consistency for a production website builder with 10k+ active users.
